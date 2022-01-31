@@ -1,0 +1,3 @@
+<?php
+
+// Silience is golden.

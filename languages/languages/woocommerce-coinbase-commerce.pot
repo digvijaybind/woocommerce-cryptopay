@@ -1,0 +1,271 @@
+# Copyright (C) 2020 Coinbase Commerce for WooCommerce
+# This file is distributed under the same license as the Coinbase Commerce for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Coinbase Commerce for WooCommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: woocommerce-coinbase-commerce.php:111
+msgid "Coinbase Commerce for WooCommerce requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: woocommerce-coinbase-commerce.php:239
+msgid "Digital Currency"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:49, includes/class-wc-gateway-coinbase-commerce.php:59
+msgid "Coinbase Commerce"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:50
+msgid "Coinbase Commerce allows you to accept digial currencies on your store. %1$sSign up%2$s for a Coinbase Commerce account, and get your %3$saccount keys%4$s."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:174
+msgid "API key is required."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:177
+msgid "The API key you entered is invalid."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:249
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:267
+msgid "Order received."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:359
+msgid "Order Code: <a href=\"%s\" target=\"_blank\">%s</a>."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:363
+msgid "Payment recevied."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:366
+msgid "Expired: transaction is not completed in time."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:382
+msgid "The amount paid is less than the order total."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:385
+msgid "The amount paid is more than the order total."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:388
+msgid "Multiple payments received for this order. Please check your %1$sCoinbase Commerce account%2$s for more details."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:391
+msgid "Payment delayed."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:395
+msgid "Status Code: MANUAL."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:399
+msgid "Status Code: OTHER."
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:449, includes/admin/coinbase-commerce-settings.php:73
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:451, includes/admin/coinbase-commerce-settings.php:76
+msgid "Litecoin"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:453, includes/admin/coinbase-commerce-settings.php:75
+msgid "Ethereum"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:455, includes/admin/coinbase-commerce-settings.php:74
+msgid "Bitcoin Cash"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:457, includes/admin/coinbase-commerce-settings.php:77
+msgid "USD Coin"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:461
+msgid "Digital Currency:"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:468
+msgid "Amount:"
+msgstr ""
+
+#: includes/class-wc-gateway-coinbase-commerce.php:477
+msgid "Transaction ID:"
+msgstr ""
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:110
+msgid "Coinbase Commerce for WooCommerce - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:120
+msgid "Coinbase Commerce for WooCommerce - The minimum WordPress version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:128
+msgid "Coinbase Commerce for WooCommerce - The minimum WooCommerce version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:135
+msgid "Coinbase Commerce for WooCommerce - cURL is not installed."
+msgstr ""
+
+#. translators: 1) link 2) link
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:144
+msgid "Coinbase Commerce for WooCommerce is enabled, but the <a href=\"%1$s\">force SSL option</a> is disabled; your checkout may not be secure! Please enable SSL and ensure your server has a valid SSL certificate."
+msgstr ""
+
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:163
+msgid "Coinbase Commerce - The Webhook Shared Secret is invalid. You will not receive notifications on the charge statuses."
+msgstr ""
+
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:178
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-wc-coinbase-commerce-admin-notices.php:182
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:16
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:18
+msgid "Enable Coinbase Commerce"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:22
+msgid "Title"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:24
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:28
+msgid "Description"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:30
+msgid "This controls the description which the user sees during checkout"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:32
+msgid "Pay in digital currency."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:35
+msgid "Webhook Endpoints"
+msgstr ""
+
+#. translators: 1) webhook URL 2) opening anchor tag opening 3) closing anchor tag
+#: includes/admin/coinbase-commerce-settings.php:38
+msgid "You must add the following webhook endpoint %1$s to your %2$sCoinbase Commerce account settings%3$s. This will enable you to receive notifications on the charge statuses."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:41
+msgid "API Key"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:43
+msgid "Get your API key from Coinbase Commerce."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:44
+msgid "Insert your Coinbase Commerce API key"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:48
+msgid "Webhook Shared Secret"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:50
+msgid "Get your Webhook Shared Secret from Coinbase Commerce."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:51
+msgid "Insert your Coinbase Commerce Webhook Shared Secret"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:55
+msgid "Display Product Prices in Cryptocurrency"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:57
+msgid "Display product prices in cryptocurrency."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:61
+msgid "Display Order Total in Cryptocurrency"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:63
+msgid "Display order total in cryptocurrency."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:67
+msgid "Active Cryptocurrencies"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:69
+msgid "Select the cryptocurrencies you want to display prices in."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:82
+msgid "Display Payment Currency"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:84
+msgid "Display payment currency in orders page."
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:85
+msgid "yes"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:88
+msgid "Payment Form Title"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:90
+msgid "Insert title you want to show in coinbase payment form"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:92
+msgid "Insert title"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:96
+msgid "Payment Form Description"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:98
+msgid "Insert the description you want to show in coinbase payment form"
+msgstr ""
+
+#: includes/admin/coinbase-commerce-settings.php:100
+msgid "Insert description"
+msgstr ""

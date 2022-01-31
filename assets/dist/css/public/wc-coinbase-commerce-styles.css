@@ -1,0 +1,61 @@
+/* Crypto icons */
+.crypto-price {
+  display: block;
+  position: relative;
+  margin: 2px 0; }
+  .crypto-price .crypto-price-inner {
+    display: block; }
+    .crypto-price .crypto-price-inner .crypto-currencies {
+      display: block;
+      line-height: 1; }
+      .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency {
+        display: inline-block;
+        background-size: 22px;
+        background-position: 0 22px;
+        width: 22px;
+        height: 22px;
+        margin-right: 2px; }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency:last-of-type {
+          margin-right: 0; }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.active {
+          background-position: 0 0; }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.btc {
+          background-image: url(../../images/icon-btc.svg); }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.bch {
+          background-image: url(../../images/icon-bch.svg); }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.eth {
+          background-image: url(../../images/icon-eth.svg); }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.ltc {
+          background-image: url(../../images/icon-ltc.svg); }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.usdc {
+          background-image: url(../../images/icon-usdc.svg); }
+        .crypto-price .crypto-price-inner .crypto-currencies .crypto-currency.currency-icon {
+          width: 22px;
+          margin: 0;
+          padding: 0; }
+    .crypto-price .crypto-price-inner .crypto-amount-container {
+      display: block;
+      margin: 0;
+      line-height: 1; }
+      .crypto-price .crypto-price-inner .crypto-amount-container .crypto-amount {
+        display: inline-block;
+        background: #111;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 8px;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 5px auto 0 auto; }
+        .crypto-price .crypto-price-inner .crypto-amount-container .crypto-amount:before {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid #111;
+          display: block;
+          margin: -10px auto 0 auto; }
+
+/* Gateway icon */
+.payment_method_coinbase_commerce label img {
+  max-width: 200px !important; }
